@@ -1,4 +1,3 @@
-import React from 'react';
 import PricingCard from './PricingCard';
 import { Button } from './ui/button';
 
