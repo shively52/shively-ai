@@ -1,3 +1,4 @@
+import { useState } from 'react'; // Import useState added here
 import { Button } from './ui/button';
 import { cn } from '@/lib/utils';
 
@@ -24,7 +25,11 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <a href="/" className="flex items-center space-x-2">
-            <img src="/src/assets/images/shively-ai-logo.png" alt="Shively AI" className="h-10" />
+            <img 
+              src="/src/assets/images/shively-ai-logo.png" 
+              alt="Shively AI" 
+              className="h-10" 
+            />
           </a>
         </div>
         
