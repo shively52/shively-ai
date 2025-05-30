@@ -1,4 +1,3 @@
-import React from 'react';
 import IndustryCard from './IndustryCard';
 
 export function Industries() {
