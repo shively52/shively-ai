@@ -26,7 +26,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <a href="/" className="flex items-center space-x-2">
             <img 
-              src="/src/assets/images/shively-ai-logo.png" 
+              src="/assets/images/shively-ai-logo.png" 
               alt="Shively AI" 
               className="h-10" 
             />
@@ -67,7 +67,7 @@ export function Header() {
                 strokeWidth={2}
                 d="M6 18L18 6M6 6l12 12"
               />
-            ) : (
+             ) : (
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
